@@ -7,5 +7,6 @@ startCommand = "hermes gateway"
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
 
+# Trigger rebuild
 [environments.production.deploy]
 numReplicas = 1
